@@ -1,6 +1,6 @@
 # Method Overloading
 https://beginnersbook.com/2013/05/method-overloading/ <br>
-Funkcia javy ktorá umožňuje **triede** mať viacej ako jednu metódu s rovnakým meno, 
+Schopnosť javy ktorá umožňuje **triede** mať viacej ako jednu metódu s rovnakým meno, 
 jediné čo sa musí **líšiť** je zoznam argumentov.<br>
 Sú tri spôsoby ako využiť overload metódy:<br>
 1. počet parametrov 
