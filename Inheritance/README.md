@@ -1,6 +1,7 @@
 # Inheritance
 https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html <br>
 Dedičnosť v Jave znamená že triedy (*subclass*) môžu byť odvodené od tried (*superclass*). Dá sa to dosiahnúť pomocou keyword **extends**.
+Využíva **is-a** (je niečo, niekto, ...) relation
 ```java
 class Trieda{}
 
