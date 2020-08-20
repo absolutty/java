@@ -1,4 +1,5 @@
 # Varargs
+https://www.geeksforgeeks.org/variable-arguments-varargs-in-java/ <br>
 S príchodom JDK 5 bola pridaná vymoženosť ktorá ujednoduchčovala vytváranie metód, ktoré majú za potrebné
 brať n-počet argumentov. Skratka *varargs* znamená variable-length arguments. <br>
 Schopnosť varargs môže byť použítá dvomi spôsobmi:
