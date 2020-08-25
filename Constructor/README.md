@@ -1,10 +1,12 @@
 # Constructor 
 https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html <br>
-Constructor obsianutý v triede slúži na vytvorenie jej blueprintu. Môže nastavovať pridelené alebo 
+https://www.w3schools.com/java/java_constructors.asp <br>
+https://www.javatpoint.com/java-constructor <br>
+Špeciálna metóda obsianutá v triede slúži na vytvorenie jej blueprintu. Je zavolaná vtedy, keď sa objekt vytvára (keď je použitý keyword *new*). Môže nastavovať pridelené alebo 
 predom nastavené hodnoty, ktoré sú následne súčasťou triedy. Trieda môže ale nemusí obsahovať constructor. 
 Pokiaľ nie je vytvorený, inštancie obsiahnuté v triede sú nastavené na defaultne hodnoty.
 ```java
-//defaultny constructor
+//defaultny constructor, tzv. non-args constructor
 int cislo;
 String meno;
 
@@ -13,7 +15,7 @@ public Trieda(){
   this.meno = null;
 } 
 
-//definovaný constructor
+//definovaný constructor, tzv. parameterized constructor
 int cislo;
 String meno;
 
@@ -27,4 +29,35 @@ Použitie constructora:
 ```java
 Trieda mojaTrieda = new Trieda(3, "nazov"); 
 // new Trieda(3, "nazov") vyčlení pamäť pre objekt a inicializije jeho hodnoty
+```
+**Pravidlá constructora:**
+- musí mať rovnaký názov ako je názov triedy
+- nemá **return** type
+- nemôže byť *abstract*, *static*, *final*, a *synchronized* 
+
+**Constructor overloading:**
+```java
+String nazov;
+int pocet;
+
+public Triead(String nazov){
+  this.nazov = nazov;
+}
+
+public Triead(int pocet){
+  this.pocet = pocet;
+}
+
+public Triead(String nazov, int pocet){
+  this.nazov = nazov;
+  this.pocet = pocet;
+}
+```
+**Kopírovanie pomocou constructora:**
+```java
+//constructor ktorý vytvorí nový objekt na základe skopírovaných údajov jedného
+public Trieda(Trieda t){
+  this.nazov = t.nazov;
+  this.pocet = t.pocet;
+}
 ```
