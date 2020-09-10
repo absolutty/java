@@ -1,4 +1,5 @@
 # Composition
+https://www.journaldev.com/1325/composition-in-java-example <br>
 Dizajnová technika, využíva **has-a** (má niečo, niekoho, ...) relation. Umožňuje vytvárať *objekty* **tvorené** *objektami*
 ```java
 public class PC {
@@ -13,3 +14,8 @@ public class PC {
     }
 }    
 ```
+**Výhody**: <br>
+- class PC nie je ovplyvnená žiadnými zmenami v objektoc Case, Monitor a Motherboard
+- vzťah *has-a* umožňuje znovu-použitie kódu --> je vhodný pre použitie vo viacerých triedach
+- môžeme kontrolovať viditeľnosť objektov v triede
+
