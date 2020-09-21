@@ -10,8 +10,8 @@ public class BinarySearch {
         generNum(arr); //generuje 20 čísel
         vypisArr(arr); // vypíše čísla
 
-        najdiCislo(40, arr);
-        binarySearch(40, arr);
+        najdiCislo(40, arr);//hladanie tak, že kontroluje čísla od prvého až do kedy ho nenájde
+        binarySearch(40, arr);//hladanie s použitím binary search
     }
 
     private static void najdiCislo(int cisloNaNajdenie, int[] arr){
