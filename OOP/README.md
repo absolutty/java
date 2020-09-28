@@ -34,3 +34,6 @@
 **Správa**:
 - základný pojem objektovo orientovaného programovania
 - slúži na *komunikáciu* medzi objektami
+
+**Garbage collector**:
+- zberná služba, ktorá sa stará o automatické rušenie nepotrebných objektov
