@@ -7,3 +7,24 @@ Deklarácia triedy pozostáva z:
 - **superclass(ak nejaké má)**: výhoda Javy je že vyžíva inheritance (dedičnosť), môže dediť iba z jedneho parenta
 - **interface(ak nejaké používa)**: môže ich byť použitých viacej, oddeľujú sa čiarkov
 - **body**: telo triedy, rozdelené {}
+
+Telo je zložené z:
+```java
+private class Trieda{
+  //atribúty
+  private typ nazov;
+  private typ cislo;
+  
+  //konštruktor
+  public Trieda(typ nazov, typ cislo){
+    this.nazov = nazov;
+    this.cislo = cislo;
+  }
+  
+  //metódy
+  //napr. getter a setter
+  private getNazov(){
+    return this.nazov;
+  }
+}
+```
