@@ -13,3 +13,5 @@ double d = Double.MAX_VALUE; //od 1.7976931348623157E308 do 4.9E-324, veľkosť 
 boolean b; //true alebo false, veľkosť 1 bit.
 char c; //ukladá jednotlivé písmená/znaky, veľkosť 2 bajty. 
 ```
+Po vykonaní aritmetickej operácie dostaneme(napr. long * float = float):
+![Screenshot](https://github.com/absolutty/javaDocs/blob/master/DataTypes/operiacie.JPG)
