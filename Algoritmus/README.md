@@ -16,6 +16,7 @@ Jeho prvkami sú príkazy:
 - **vetvenie**(výber jednej alternatívy):
 	- alternatívne vetvy algoritmu
 	- vetva sa uplatní, ak je splnená podmienka
+	- príkaz [IF](https://github.com/absolutty/javaDocs/tree/master/If), príkaz [SWITCH](https://github.com/absolutty/javaDocs/tree/master/Switch)
 - **cyklus**(opakovanie časti algoritmu):
 	- opakovaná časť --> telo cyklu	
 	- nazýva sa iterácia
