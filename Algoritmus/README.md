@@ -6,6 +6,8 @@
 	- **rezultatívnosť**: pri zadaní rovnakých vstupov je potrebné aby nám vyšli rovnaké výsledky
 	- **konečnosť**: má konečný počet krokov
 	- **hromadnosť**: nie je riešením jednej úlohy, mal by byť *všeobecný*
+	- **efektívnosť**: výsledok má byť dosiahnutý za použitia čo najmenej krokov
+	- **elementárnosť**: je zložený z niekoľko za sebou nasledujúcich krokov
 - je vykonávaný fyzickým objektom, kt. sa nazýva *procesor*
 - procesor nerozmýšla sám, využíva predom určenú postupnosť krokov
 
