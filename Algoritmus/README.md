@@ -23,3 +23,6 @@ Jeho prvkami sú príkazy:
 	- opakovaná časť --> telo cyklu	
 	- nazýva sa iterácia
 	- opakuje sa na základe určenej podmienky
+- program existuje v dvoch tvaroch:
+	- **zdrojový kód**: zapisuje aj číta človek
+	- **strojový kód(cieľový)**: pracuje podľa neho počítač, človek ho nevie jednoducho prečítať
