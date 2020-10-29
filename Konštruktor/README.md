@@ -1,4 +1,4 @@
-# Constructor 
+# Konštruktor 
 https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html <br>
 https://www.w3schools.com/java/java_constructors.asp <br>
 https://www.javatpoint.com/java-constructor <br>
@@ -6,7 +6,7 @@ https://www.javatpoint.com/java-constructor <br>
 predom nastavené hodnoty, ktoré sú následne súčasťou triedy. Trieda môže ale nemusí obsahovať constructor. 
 Pokiaľ nie je vytvorený, inštancie obsiahnuté v triede sú nastavené na defaultne hodnoty.
 ```java
-//defaultny constructor, tzv. non-args constructor
+//defaultny konštruktor, tzv. non-args konštruktor
 int cislo;
 String meno;
 
@@ -15,7 +15,7 @@ public Trieda(){
   this.meno = null;
 } 
 
-//definovaný constructor, tzv. parameterized constructor
+//definovaný konštruktor, tzv. parameterized konštruktor
 int cislo;
 String meno;
 
@@ -25,17 +25,17 @@ public Trieda(int cislo, String meno){
 }
 ```
 
-Použitie constructora:
+Použitie konštruktor:
 ```java
 Trieda mojaTrieda = new Trieda(3, "nazov"); 
 // new Trieda(3, "nazov") vyčlení pamäť pre objekt a inicializije jeho hodnoty
 ```
-**Pravidlá constructora:**
+**Pravidlá konštruktor:**
 - musí mať rovnaký názov ako je názov triedy
 - nemá **return** type
 - nemôže byť *abstract*, *static*, *final*, a *synchronized* 
 
-**Constructor overloading:**
+**Konštruktor overloading:**
 ```java
 String nazov;
 int pocet;
@@ -53,9 +53,9 @@ public Triead(String nazov, int pocet){
   this.pocet = pocet;
 }
 ```
-**Kopírovanie pomocou constructora:**
+**Kopírovanie pomocou konštruktora:**
 ```java
-//constructor ktorý vytvorí nový objekt na základe skopírovaných údajov jedného
+//konštruktor ktorý vytvorí nový objekt na základe skopírovaných údajov jedného
 public Trieda(Trieda t){
   this.nazov = t.nazov;
   this.pocet = t.pocet;
