@@ -47,6 +47,12 @@
 
 **Inštancia**
   - objekt, ktorý vyrobila trieda
+
+[**Asociácia**](https://github.com/absolutty/javaDocs/tree/master/Asoci%C3%A1cia)
+  - spolupráca dvoch objektov
+
+[**Kompozícia**](https://github.com/absolutty/javaDocs/tree/master/Kompozicia)
+  - tvorba objektov, kt. sú tvorené objektami
   
 **Správa**:
 - základný pojem objektovo orientovaného programovania
