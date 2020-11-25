@@ -17,7 +17,7 @@ datovyTyp[] nazov = new datovyTyp[velkost];
 Array môže byť vytvorený aj týmto spôsobom:
 ```java
 datovyTyp[] nazov = {hodnota1, hodnota2, ...};
-//predom sa mu definujú jeho premenné
+//jeho veľkosť je definovaná počtom premenných
 ```
 Array mojZoznam obsahuje 10 premenných, číslujú sa od **0-9**.
 ```java
