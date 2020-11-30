@@ -3,6 +3,10 @@ public class Singleton {
 
     private Singleton(){}
     
-    static Singleton getInstance(){
-        return obj;
+    public static Singleton getInstance(){
+        if(Singleto.obj==null){
+          Singleto.obj = new Singleton();  
+        }
+       
+        return Singleton.obj;  
     }
