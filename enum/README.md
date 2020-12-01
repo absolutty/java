@@ -29,3 +29,24 @@ public enum SvetoveStrany {
       break;
   }
 ```
+- je možné aj vytvorenie **konštruktora**
+- konštruktor musí byť *package-private* ale bo *private*
+- automaticky vytvorí konštanty, kt. sú definované v tele enum-u
+- nie je možné ho vyvolať z vonku (mimo samotnej triedy)
+```java
+public enum MatematickeHodnoty {
+    PI(3.14),
+    e(2.17),
+    hmotnostTvojaMama(Integer.MAX_VALUE);
+
+    private double hodnota;
+
+    MatematickeHodnoty(double hodnota) {
+        this.hodnota = hodnota;
+    }
+
+    public double getHodnota() {
+        return hodnota;
+    }
+}
+```
