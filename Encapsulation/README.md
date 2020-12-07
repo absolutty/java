@@ -2,7 +2,18 @@
 https://www.tutorialspoint.com/java/java_encapsulation.htm <br>
 Jeden zo základných konceptov OOP. Je to mechanizmus **obaľovania** (wrapping) dát (premenných, metód, tried, ..) 
 a kódu ako jednotného celku. V enkapsulácií sú dáta jednej triedy skryté pre ostatné triedy. Dostať sa k nim 
-je jedine možné pomocou metód danej triedy. <br>
+je jedine možné pomocou metód danej triedy. 
+- **vnútorný pohľad**: prístupný len objektu samému a jeho tvorcom
+  - implementácia objektu(atribúty a metódy)
+- **vonkajší pohľad**: prístupný všetkým čo objekt využívajú
+  - rozhranie objektu
+- objekt je braný ako celok
+  - atribúty --> dátová časť
+  - metódy --> správanie objektu
+- "ostatní" môžu objekt len žiadať o vykonanie operácie
+- objekt sa sám rozhodne spôsob spracovania
+- ukrývanie informácií: ostatné objekty nemajú prístup k dátovej zložke objektu
+
 Dosiahnutie enkapsulácie v Jave:
 - deklarovanie premenných triedy ako **private**
 - vytvorenie *public* **setter** a **getter** pre modifikovanie a vrátenie premenných
