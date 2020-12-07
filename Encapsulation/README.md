@@ -11,8 +11,8 @@ je jedine možné pomocou metód danej triedy.
   - atribúty --> dátová časť
   - metódy --> správanie objektu
 - "ostatní" môžu objekt len žiadať o vykonanie operácie
-- objekt sa sám rozhodne spôsob spracovania
-- ukrývanie informácií: ostatné objekty nemajú prístup k dátovej zložke objektu
+- objekt sa "sám rozhodne" spôsob spracovania
+- **ukrývanie informácií**: ostatné objekty nemajú prístup k dátovej zložke objektu
 
 Dosiahnutie enkapsulácie v Jave:
 - deklarovanie premenných triedy ako **private**
@@ -48,5 +48,5 @@ class Trieda{
 }
 ```
 Výhody enkapsulácie:
-- polia triedy môžu byť vytvorené na read-only alebo write-only
+- polia triedy môžu byť vytvorené na *read-only* alebo *write-only*
 - trieda môže mať úplnú kontrolu nad tým čo ukladá do svojích polí
