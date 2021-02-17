@@ -23,3 +23,4 @@ Array mojZoznam obsahuje 10 premenných, číslujú sa od **0-9**.
 ```java
 double[] mojZoznam = new double[10];
 ```
+![](https://github.com/absolutty/javaDocs/blob/master/Arrays/array.png)
