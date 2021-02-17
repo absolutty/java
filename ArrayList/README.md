@@ -19,5 +19,5 @@ zoznamMien.add(String meno); //vráti void
 zoznamMien.get(int index); //vráti daný String
 zoznamMien.remove(int index); // odstráni z indexu a vráti daný String
 zoznamMien.size(); //vráti int veľkosť ArrayListu
-
 ```
+![Screenshot](https://github.com/absolutty/javaDocs/blob/master/ArrayList/arrList.png)
