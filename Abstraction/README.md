@@ -18,3 +18,4 @@ abstract class Animal {
   public abstract void animalSound();
 }
 ```
+![Screenshot](https://github.com/absolutty/javaDocs/blob/master/Abstraction/abstract-class-in-java.jpg)
