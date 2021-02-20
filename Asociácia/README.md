@@ -4,4 +4,5 @@
 - jedná sa o vzťah *one-to-one* alebo *one-to-many*
 - tento vzťah je dosiahnutý pomocou ich objektov
 - Príklad asociácie:
-![](https://github.com/absolutty/javaDocs/blob/master/Asoci%C3%A1cia/uml-auto-majitel-asoc.JPG)
+
+- ![](https://github.com/absolutty/javaDocs/blob/master/Asoci%C3%A1cia/uml-auto-majitel-asoc.JPG)
