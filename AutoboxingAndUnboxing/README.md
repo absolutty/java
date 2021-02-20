@@ -26,11 +26,4 @@ Autoboxing nastáva keď:
 
 **Umožňuje** písanie prehladnejšie ho kódu, jednoduchšieho na čítanie. <br>
 
-boolean -->	Boolean<br>
-byte --> Byte<br>
-char -->	Character<br>
-float -->	Float<br>
-int -->	Integer<br>
-long -->	Long<br>
-short -->	Short<br>
-double -->	Double<br>
+![](https://github.com/absolutty/javaDocs/blob/master/AutoboxingAndUnboxing/autobox-unbox.png)
