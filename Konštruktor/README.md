@@ -4,7 +4,7 @@ https://www.w3schools.com/java/java_constructors.asp <br>
 https://www.javatpoint.com/java-constructor <br>
 Špeciálna metóda obsianutá v triede slúži na vytvorenie jej blueprintu. Je zavolaná vtedy, keď sa objekt vytvára (keď je použitý keyword *new*). Môže nastavovať pridelené alebo 
 predom nastavené hodnoty, ktoré sú následne súčasťou triedy. <br>
-![](https://github.com/absolutty/javaDocs/blob/master/Kon%C5%A1truktor/konstruktor-kompilator.png)
+![](https://github.com/absolutty/javaDocs/blob/master/Kon%C5%A1truktor/konstruktor-kompilator.png) <br>
 Trieda môže ale nemusí obsahovať constructor. 
 Pokiaľ nie je vytvorený, inštancie obsiahnuté v triede sú nastavené na defaultne hodnoty.
 ```java
