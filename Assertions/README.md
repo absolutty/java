@@ -7,3 +7,4 @@ https://docs.oracle.com/javase/7/docs/technotes/guides/language/assert.html <br>
 - **Assertions.assertEquals(očakávaná, skutočná)**: vyhodnocuje ROVNOSŤ zadaných parametrov. Môže byť použitý viacej krát, test bude tak či tak pokračovať.
 - **Assertions.assertTrue(pravdivostnyVyraz)**: vyhodnocuje PRAVDIVOSŤ vyrázu. [true:test pokračuje | false: test končí chybou]
 - **Assertions.assertFalse(pravdivostnyVyraz)**: vyhodnocuje NEPRAVDIVOSŤ vyrázu. [false: test pokračuje | true: test končí chybou]
+![](https://github.com/absolutty/javaDocs/blob/master/Assertions/assertion-example.PNG)
