@@ -26,3 +26,10 @@ Jeho prvkami sú príkazy:
 - program existuje v dvoch tvaroch:
 	- **zdrojový kód**: zapisuje aj číta človek
 	- **strojový kód(cieľový)**: pracuje podľa neho počítač, človek ho nevie jednoducho prečítať
+- základné **druhy** algoritmov:
+	- **brute-force** algorithm: skúša každú možnosť
+	- **recursive** algorithm: počas jeho vykonávania invokuje sám seba
+	- **divide an conquer** algorithm: rozdeľuje problémy do menších inštancií, vyrieši ich samostatne a potom zlúči výsledok
+	- **backtracking** algorithm: vyskúša všetky možnosti a vráti sa naspäť ako náhle zistí že že ďalšie možnosti nie sú *validné*(neexistujú už)
+	- **dynamic programming** algorithm: ideálne riešenie pre rekurzívne riešenia, kt. majú prelínajúce sa problémy
+	- **greedy** algorithm: zvolí najviac optimálny krok pre každý krok
