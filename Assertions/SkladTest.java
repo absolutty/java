@@ -1,3 +1,6 @@
+/**
+* ukážka triedy na ktorej je vykonávanie testovanie
+*/
 package sk.uniza.fri;
 
 import org.junit.jupiter.api.AfterEach;
