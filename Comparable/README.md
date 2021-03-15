@@ -8,4 +8,9 @@ https://www.javatpoint.com/Comparable-interface-in-collection-framework <br>
   - **kladný** integer ak je objekt *viacej* ako určený objekt
   - **záporny** integer, ak je objekt *menej* ako určený objekt
   - **nulu**, ak sa objekty rovnajú
+```java
+Student s1 = new Student("Peter", 13);
+Student s2 = new Student("Jano", 13);
+
+System.out.println(s1.compareTo(s2));
 ```
