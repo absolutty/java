@@ -16,3 +16,4 @@ https://www.baeldung.com/java-string-immutable <br>
   - uschovávanie String literálov a opätovné používanie šetrí veľa pamäte
   - Java String Pool je špeciálná oblasť v JVM, kde sú String-y uschovávané
   - keďže String-y sú nemenné (immutable), JVM šetri množstvo pamäte určenej pre nich tým že ukladá kópiu jednotlivých literálov do JSP
+![](https://github.com/absolutty/javaDocs/blob/master/Immutable/string-immutable.jpg)
