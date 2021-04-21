@@ -33,4 +33,18 @@ System.out.println(zoznamCisel[7]);
     main(new String[1]);
 }
  ```
- ![](https://github.com/absolutty/javaDocs/blob/master/Exception/exception-hierarchy.jpg)
+ ![](https://github.com/absolutty/javaDocs/blob/master/Exception/exception-hierarchy.jpg)<br>
+ 
+ **Vytváranie vlastnej Exception**
+ - Java Exceptions ošetrujú väčšinu základných výnimok, ktoré môžu nastať pri spustení programu
+ - niekedy je ale potrebné ich customizovať
+ - konvencia hovorí že ich názvy by mali končiť so slovom *Exceptions* (ZaporneCisloExceptions)
+ - je potrebné extendntúť z už existujúcej výnimky (napr. z triedy Exception)
+ - následne vytvoriť ich konštruktor s potrebnými parametrami
+ ```java
+ public class CustomException extends Exception {
+  public CustomException(String msg) {
+    super(msg);
+  }
+}
+ ```
