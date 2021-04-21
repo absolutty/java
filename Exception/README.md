@@ -22,3 +22,13 @@ int[] zoznamCisel = {3, 2, 1};
 System.out.println(zoznamCisel[7]);
 //Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 3
 ```
+
+- **Errors**:
+  - problémy, ktoré sú mimo kontroly užívateľa alebo programátora
+  - známy je StackOverflow error
+ ```java
+ public static void main(String[] args) {
+    main(new String[1]);
+}
+ ```
+ 
