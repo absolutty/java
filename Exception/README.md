@@ -3,7 +3,9 @@ https://www.tutorialspoint.com/java/java_exceptions.htm <br>
 - tzv. *výnimka* je problém, ktorý nastane počas vykonávania programu
 - keď sa toto stane, normálny chod programu je **zastavený** nesprávnym spôsobom
 - výnimky by mali byť odchytávané 
-Poznáme tieto **druhy** výnimiek: 
+- používané keywords: **try**, **catch** a **finally** --> [TryCatchFinally]()
+
+<br>Poznáme tieto **druhy** výnimiek: 
 - **CHECKED** exceptions:
   - výnimka, ktorá je oznámená kompilátorom počas *compilation-time*
   - je ich potrebné **ošetriť**
