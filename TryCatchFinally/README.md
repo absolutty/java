@@ -1,4 +1,5 @@
-https://docs.oracle.com/javase/tutorial/essential/exceptions/handling.html 
+https://docs.oracle.com/javase/tutorial/essential/exceptions/handling.html <br>
+Spôsob, akým sa kontrolujú a riešia [Exceptions](https://github.com/absolutty/javaDocs/tree/master/Exception) (Výnimky)
 # try
 ```java
 try {
