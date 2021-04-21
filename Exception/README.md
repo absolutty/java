@@ -31,4 +31,4 @@ System.out.println(zoznamCisel[7]);
     main(new String[1]);
 }
  ```
- 
+ ![](https://github.com/absolutty/javaDocs/blob/master/Exception/exception-hierarchy.jpg)
