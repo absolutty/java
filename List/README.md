@@ -8,3 +8,4 @@ kde sú vložené jednotlivé objekty. Tento interaface pridáva pridané metód
 v *Collection* (iterator(), add(), remove(), equals(), a hashCode() ). <br>
 Poskytuje 4 metódy na *pozičný* (indexovaný) prístup k jeho elementom. Začíná číslom **0**. <br>
 Pomocou ListIterator-a je možné sa posúvať dopredu a dozadu. <br>
+![](https://github.com/absolutty/javaDocs/blob/master/List/list.png)
