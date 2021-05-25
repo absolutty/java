@@ -10,3 +10,5 @@ https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html <br>
   - ak je Set nejakým spôsobom modifikovaný potom ako bol Iterator vytvorený (okrem Iteratorovej vlastnej metódy remove()), 
   je vyhodená výnimka **ConcurrentModificationException**
   - čo zn. že iterátor neuspeje a spadne rýchlo a čisto, bez možných budúcich problémov
+
+![](https://github.com/absolutty/javaDocs/blob/master/HashSet/java-hashset-hierarchy.jpg)
