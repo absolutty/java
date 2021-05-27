@@ -4,6 +4,7 @@ https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode()
 - vráti hash hodnotu objektu
 - používa sa pri zoskupeniach, u ktorých nechceme duplikované inštancie objektov
 - vždy keď je táto metóda vyvolaná na rovnaké objekty počas spustenia Java aplikácie, musí vrátiť tú istú hodnotu
+![](https://github.com/absolutty/javaDocs/blob/master/hashCode/hashcode-vysvetlenie.jpg)
 - ak sú dva objekty rovné /na základe metódy equals()/, majú rovnakú *int* hodnotu
 - unikátnosť hash čísla sa dosiahne pomocou metód **equals()** a **hashcode()**
 
